@@ -1,0 +1,61 @@
+:root {
+    /* Couleurs */
+    --color-primary: #3498db; /* Couleur principale */
+    --color-secondary: #2ecc71; /* Couleur secondaire */
+    --color-accent: #e74c3c; /* Couleur d'accentuation */
+    --color-background: #f4f4f4; /* Couleur de fond */
+    --color-text: #333333; /* Couleur du texte principal */
+    --color-text-light: #ffffff; /* Couleur du texte clair */
+    --color-border: #dddddd; /* Couleur des bordures */
+    --color-black: #000000; /* Nouvelle couleur noire */
+    --border-color: #e5e7eb;
+    --text-color-black: rgb(15, 7, 3);
+
+    /* Tailles de police */
+    --font-size-small: 0.875rem; /* 14px */
+    --font-size-base: 1rem; /* 16px */
+    --font-size-medium: 1.25rem; /* 20px */
+    --font-size-large: 1.5rem; /* 24px */
+    --font-size-xlarge: 2rem; /* 32px */
+    --font-size-xxlarge: 3rem; /* 48px */
+
+    /* Espacements */
+    --spacing-xxsmall: 0.25rem; /* 4px */
+    --spacing-xsmall: 0.5rem; /* 8px */
+    --spacing-small: 0.75rem; /* 12px */
+    --spacing-medium: 1rem; /* 16px */
+    --spacing-large: 1.5rem; /* 24px */
+    --spacing-xlarge: 2rem; /* 32px */
+    --spacing-xxlarge: 3rem; /* 48px */
+
+    /* Bordures */
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+    --border-radius-large: 12px;
+    --border-width-thin: 1px;
+    --border-width-thick: 2px;
+
+    /* Ombre */
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    /* Transitions */
+    --transition-duration: 0.3s;
+    --transition-timing-function: ease-in-out;
+
+    /* Degrés (pour les rotations, etc.) */
+    --rotate-45: 45deg;
+    --rotate-90: 90deg;
+    --rotate-180: 180deg;
+
+    /* Autres variables */
+    --max-width: 1200px; /* Largeur maximale du contenu */
+    --container-padding: var(--spacing-medium); /* Padding du conteneur */
+}
+/* Réinitialisation des bordures et box-sizing pour tous les éléments */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0 solid var(--border-color);
+    box-sizing: border-box;
+    font: inherit;
+}
